@@ -1,0 +1,119 @@
+name: Preview Build
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  preview:
+    name: Build Preview Package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Get current version
+        id: version
+        run: |
+          CURRENT_VERSION=$(node -p "require('./package.json').version")
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          SHORT_SHA=$(git rev-parse --short HEAD)
+          PREVIEW_VERSION="${CURRENT_VERSION}-preview.${PR_NUMBER}.${SHORT_SHA}"
+          echo "preview_version=$PREVIEW_VERSION" >> $GITHUB_OUTPUT
+          echo "current_version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Update version for preview
+        run: |
+          npm version ${{ steps.version.outputs.preview_version }} --no-git-tag-version
+
+      - name: Package preview extension
+        run: npm run package
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-pr-${{ github.event.pull_request.number }}
+          path: '*.vsix'
+          retention-days: 30
+
+      - name: Get artifact URL
+        id: artifact
+        run: |
+          ARTIFACT_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo "url=$ARTIFACT_URL" >> $GITHUB_OUTPUT
+
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const vsixFile = fs.readdirSync('.').find(f => f.endsWith('.vsix'));
+            const stats = fs.statSync(vsixFile);
+
+            const body = `## 📦 Preview Build Available
+
+            A preview build has been generated for this PR!
+
+            ### Package Details
+            - **Version**: \`${{ steps.version.outputs.preview_version }}\`
+            - **Base Version**: \`${{ steps.version.outputs.current_version }}\`
+            - **File**: \`${vsixFile}\`
+            - **Size**: ${(stats.size / 1024).toFixed(2)} KB
+
+            ### How to Test
+            1. Download the artifact from [this workflow run](${{ steps.artifact.outputs.url }})
+            2. Extract the \`.vsix\` file
+            3. In VS Code, open the Extensions view (Cmd/Ctrl+Shift+X)
+            4. Click the \`...\` menu and select "Install from VSIX..."
+            5. Choose the downloaded \`.vsix\` file
+
+            ### Themes Included
+            - No Pixie Dark
+            - No Pixie Light
+
+            The preview package will be available for 30 days.
+            `;
+
+            // Check if we already commented
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' &&
+              comment.body.includes('Preview Build Available')
+            );
+
+            if (botComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: body
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: body
+              });
+            }
