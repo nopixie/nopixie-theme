@@ -1,0 +1,125 @@
+name: Validate Theme
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'themes/**'
+      - 'package.json'
+      - '.github/workflows/**'
+
+jobs:
+  validate:
+    name: Validate Theme Files
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate JSON syntax
+        run: |
+          echo "Validating theme JSON files..."
+          for file in themes/*.json; do
+            echo "Checking $file"
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ Invalid JSON in $file"
+              exit 1
+            else
+              echo "✅ $file is valid"
+            fi
+          done
+
+      - name: Validate package.json
+        run: |
+          echo "Validating package.json..."
+          if ! jq empty package.json 2>/dev/null; then
+            echo "❌ Invalid JSON in package.json"
+            exit 1
+          fi
+
+          # Check required fields
+          REQUIRED_FIELDS=("name" "displayName" "version" "publisher" "engines")
+          for field in "${REQUIRED_FIELDS[@]}"; do
+            if ! jq -e ".$field" package.json > /dev/null; then
+              echo "❌ Missing required field: $field"
+              exit 1
+            fi
+          done
+          echo "✅ package.json is valid"
+
+      - name: Check theme structure
+        run: |
+          echo "Validating theme structure..."
+          for file in themes/*.json; do
+            echo "Checking structure of $file"
+
+            # Check for colors object
+            if ! jq -e '.colors' "$file" > /dev/null; then
+              echo "⚠️  Warning: No colors defined in $file"
+            fi
+
+            # Check for tokenColors array
+            if ! jq -e '.tokenColors' "$file" > /dev/null; then
+              echo "⚠️  Warning: No tokenColors defined in $file"
+            fi
+          done
+
+      - name: Test packaging
+        run: |
+          echo "Testing extension packaging..."
+          npm run package
+
+          # Check if .vsix file was created
+          if ls *.vsix 1> /dev/null 2>&1; then
+            echo "✅ Extension packaged successfully"
+            ls -lh *.vsix
+          else
+            echo "❌ Failed to create .vsix package"
+            exit 1
+          fi
+
+      - name: Upload test package
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-package-pr-${{ github.event.pull_request.number }}
+          path: '*.vsix'
+          retention-days: 7
+
+      - name: Comment PR
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const fs = require('fs');
+            const vsixFiles = fs.readdirSync('.').filter(f => f.endsWith('.vsix'));
+            const status = vsixFiles.length > 0 ? '✅ Validation passed' : '❌ Validation failed';
+
+            let body = `## Theme Validation Results\n\n${status}\n\n`;
+
+            if (vsixFiles.length > 0) {
+              body += `### Package Info\n`;
+              body += `- **File**: \`${vsixFiles[0]}\`\n`;
+              const stats = fs.statSync(vsixFiles[0]);
+              body += `- **Size**: ${(stats.size / 1024).toFixed(2)} KB\n\n`;
+              body += `You can download the test package from the workflow artifacts to test locally.\n`;
+            }
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });

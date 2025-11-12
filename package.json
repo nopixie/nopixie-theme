@@ -1,0 +1,47 @@
+{
+  "name": "nopixie-theme",
+  "displayName": "No Pixie theme",
+  "description": "A minimal theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "no-pixie",
+  "icon": "images/icon.jpg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nopixie/nopixie-theme"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "No Pixie Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/no-pixie-dark.json"
+      },
+      {
+        "label": "No Pixie Light",
+        "uiTheme": "vs",
+        "path": "./themes/no-pixie-light.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "cozy"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
+}
