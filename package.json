@@ -2,7 +2,7 @@
   "name": "nopixie-theme",
   "displayName": "No Pixie theme",
   "description": "A minimal theme for VS Code",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "no-pixie",
   "icon": "images/icon.jpg",
   "license": "MIT",
@@ -40,7 +40,7 @@
   "scripts": {
     "package": "vsce package",
     "publish:vsce": "vsce publish",
-    "publish:ovsx": "ovsx publish nopixie.nopixie-theme-*.vsix"
+    "publish:ovsx": "ovsx publish"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.22.0",
