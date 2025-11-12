@@ -113,12 +113,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Bump version
-        run: |
-          npm version ${{ needs.check-version.outputs.new_version }} --no-git-tag-version
-          git add package.json
-          git commit -m "chore: bump version to ${{ needs.check-version.outputs.new_version }} [skip ci]"
-          git push
+      - name: Update version in package.json
+        run: npm version ${{ needs.check-version.outputs.new_version }} --no-git-tag-version
 
       - name: Package extension
         run: npm run package
@@ -132,6 +128,22 @@ jobs:
         run: |
           git tag v${{ needs.check-version.outputs.new_version }}
           git push origin v${{ needs.check-version.outputs.new_version }}
+
+      - name: Create version bump PR
+        run: |
+          BRANCH_NAME="version-bump-${{ needs.check-version.outputs.new_version }}"
+          git checkout -b $BRANCH_NAME
+          git add package.json
+          git commit -m "chore: bump version to ${{ needs.check-version.outputs.new_version }} [skip ci]"
+          git push origin $BRANCH_NAME
+          PR_URL=$(gh pr create \
+            --title "chore: bump version to ${{ needs.check-version.outputs.new_version }}" \
+            --body "Automated version bump after publishing v${{ needs.check-version.outputs.new_version }} to VS Code Marketplace." \
+            --base main \
+            --head $BRANCH_NAME)
+          gh pr merge $PR_URL --auto --squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
