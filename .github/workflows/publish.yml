@@ -120,9 +120,14 @@ jobs:
         run: npm run package
 
       - name: Publish to VS Code Marketplace
-        run: npm run publish -- -p ${{ secrets.VSCE_PAT }}
+        run: npm run publish:vsce -- -p ${{ secrets.VSCE_PAT }}
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to OpenVSX
+        run: npm run publish:ovsx -- -p ${{ secrets.OVSX_PAT }}
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
 
       - name: Create Git tag
         run: |
@@ -141,7 +146,7 @@ jobs:
             --body "Automated version bump after publishing v${{ needs.check-version.outputs.new_version }} to VS Code Marketplace." \
             --base main \
             --head $BRANCH_NAME)
-          gh pr merge $PR_URL --auto --squash
+          gh pr merge $PR_URL --auto --squash --admin
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

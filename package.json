@@ -39,9 +39,11 @@
   ],
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish --namespace nopixie"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.22.0"
+    "@vscode/vsce": "^2.22.0",
+    "ovsx": "^0.10.6"
   }
 }
