@@ -40,7 +40,7 @@
   "scripts": {
     "package": "vsce package",
     "publish:vsce": "vsce publish",
-    "publish:ovsx": "ovsx publish --namespace nopixie"
+    "publish:ovsx": "ovsx publish no-pixie.nopixie-theme-*.vsix"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.22.0",
