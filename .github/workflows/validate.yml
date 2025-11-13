@@ -26,6 +26,15 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Debug lock file
+        run: |
+          echo "Checking for conventional-commits-parser in lock file..."
+          grep -c "conventional-commits-parser" package-lock.json || echo "Not found"
+          echo "Lock file version:"
+          head -5 package-lock.json
+          echo "npm version:"
+          npm --version
+
       - name: Install dependencies
         run: npm ci
 
