@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & Discussions
+    url: https://github.com/nopixie/nopixie-theme/discussions
+    about: For general questions, use Discussions instead
