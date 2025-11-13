@@ -38,12 +38,18 @@
     "cozy"
   ],
   "scripts": {
+    "prepare": "husky",
     "package": "vsce package",
     "publish:vsce": "vsce publish",
-    "publish:ovsx": "ovsx publish"
+    "publish:ovsx": "ovsx publish",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
+    "@commitlint/cli": "20.1.0",
+    "@commitlint/config-conventional": "20.0.0",
     "@vscode/vsce": "^2.22.0",
+    "conventional-changelog-cli": "5.0.0",
+    "husky": "9.1.7",
     "ovsx": "^0.10.6"
   }
 }
