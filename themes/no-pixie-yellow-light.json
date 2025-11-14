@@ -92,7 +92,7 @@
     "tab.hoverBackground": "#FFFCF0",
     "tab.hoverForeground": "#3A2F18",
 
-    "editor.background": "#FFFEF8",
+    "editor.background": "#FFFDF0",
     "editor.foreground": "#3A2F18",
     "editorLineNumber.foreground": "#B89860",
     "editorLineNumber.activeForeground": "#8A6020",
@@ -136,7 +136,7 @@
     "editorInfo.foreground": "#9A7030",
     "editorHint.foreground": "#9A8860",
 
-    "editorGutter.background": "#FFFEF8",
+    "editorGutter.background": "#FFFDF0",
     "editorGutter.modifiedBackground": "#9A7030",
     "editorGutter.addedBackground": "#7A9850",
     "editorGutter.deletedBackground": "#D84040",
