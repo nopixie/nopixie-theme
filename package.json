@@ -47,6 +47,16 @@
         "label": "No Pixie Blue Light",
         "uiTheme": "vs",
         "path": "./themes/no-pixie-blue-light.json"
+      },
+      {
+        "label": "No Pixie Yellow Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/no-pixie-yellow-dark.json"
+      },
+      {
+        "label": "No Pixie Yellow Light",
+        "uiTheme": "vs",
+        "path": "./themes/no-pixie-yellow-light.json"
       }
     ]
   },
