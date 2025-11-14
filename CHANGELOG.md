@@ -1,3 +1,12 @@
+## 1.2.0 (2025-11-14)
+
+* feat: add comprehensive icon themes matching color palettes (#22) ([c85923b](https://github.com/nopixie/nopixie-theme/commit/c85923b)), closes [#22](https://github.com/nopixie/nopixie-theme/issues/22)
+* feat: add subtle color tints to Blue and Yellow light theme backgrounds (#21) ([29d5e53](https://github.com/nopixie/nopixie-theme/commit/29d5e53)), closes [#21](https://github.com/nopixie/nopixie-theme/issues/21) [#FFFFFF](https://github.com/nopixie/nopixie-theme/issues/FFFFFF) [#F8FAFE](https://github.com/nopixie/nopixie-theme/issues/F8FAFE) [#FFFDF0](https://github.com/nopixie/nopixie-theme/issues/FFFDF0)
+* chore: bump version to 1.1.0 [skip ci] (#19) ([04caf27](https://github.com/nopixie/nopixie-theme/commit/04caf27)), closes [#19](https://github.com/nopixie/nopixie-theme/issues/19)
+* chore: update readme and changelog generation ([31f05a4](https://github.com/nopixie/nopixie-theme/commit/31f05a4))
+
+
+
 ## 1.1.0 (2025-11-14)
 
 * feat: add yellow theme variants inspired by cozy atmosphere (#18) ([5f8de89](https://github.com/nopixie/nopixie-theme/commit/5f8de89)), closes [#18](https://github.com/nopixie/nopixie-theme/issues/18)
