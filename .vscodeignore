@@ -10,3 +10,5 @@ examples/**
 .husky/**
 .commitlintrc.json
 renovate.json
+scripts/**
+.claude/**

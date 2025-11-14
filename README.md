@@ -1,6 +1,32 @@
+<p align="center">
+  <img src="images/icon.jpg" alt="No Pixie Theme Icon" width="200">
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"><img src="https://img.shields.io/visual-studio-marketplace/v/no-pixie.nopixie-theme?style=for-the-badge&colorA=1e1e2e&colorB=89b4fa&label=VERSION" alt="Version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/no-pixie.nopixie-theme?style=for-the-badge&colorA=1e1e2e&colorB=a6e3a1&label=RATING" alt="Rating"></a>
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/no-pixie.nopixie-theme?style=for-the-badge&colorA=1e1e2e&colorB=f9e2af&label=VS%20CODE%20INSTALLS" alt="VS Code Installs"></a>
+  <a href="https://open-vsx.org/extension/no-pixie/nopixie-theme"><img src="https://img.shields.io/open-vsx/dt/no-pixie/nopixie-theme?style=for-the-badge&colorA=1e1e2e&colorB=f9e2af&label=OPENVSX%20DOWNLOADS" alt="OpenVSX Downloads"></a>
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=no-pixie.nopixie-theme"><img src="https://img.shields.io/visual-studio-marketplace/d/no-pixie.nopixie-theme?style=for-the-badge&colorA=1e1e2e&colorB=cba6f7&label=VS%20CODE%20DOWNLOADS" alt="VS Code Downloads"></a>
+  <a href="https://open-vsx.org/extension/no-pixie/nopixie-theme"><img src="https://img.shields.io/open-vsx/dt/no-pixie/nopixie-theme?style=for-the-badge&colorA=1e1e2e&colorB=cba6f7&label=OPENVSX%20TOTAL" alt="OpenVSX Total Downloads"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/nopixie/nopixie-theme"><img src="https://img.shields.io/github/stars/nopixie/nopixie-theme?style=for-the-badge&label=STARS&colorA=1e1e2e&colorB=f5c2e7" alt="GitHub Stars"></a>
+  <a href="https://github.com/nopixie/nopixie-theme/blob/main/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-fab387?style=for-the-badge&colorA=1e1e2e" alt="License"></a>
+</p>
+
+---
+
 # No Pixie Theme
 
-A minimal and carefully crafted color theme for Visual Studio Code, available in both dark and light variants.
+A minimal and carefully crafted color theme for Visual Studio Code, featuring both color themes and matching icon themes in multiple variants.
 
 ## Features
 
@@ -11,6 +37,7 @@ A minimal and carefully crafted color theme for Visual Studio Code, available in
 - ☀️ **Yellow Variants**: Warm yellow/amber color palette inspired by cozy atmosphere for a comfortable coding experience
 - 🎨 **Minimal Design**: Thoughtfully designed color palette that reduces visual clutter
 - 💻 **Syntax Highlighting**: Optimized for readability across multiple programming languages
+- 🗂️ **Icon Themes**: Three comprehensive icon themes (Purple, Blue, Yellow) that match each color palette with support for folders, files, and 40+ file types
 
 ## Installation
 
@@ -74,7 +101,9 @@ The high contrast light variant offers maximum contrast for accessibility needs 
 
 ## Activation
 
-After installation, you can activate the theme by:
+### Color Theme
+
+After installation, you can activate the color theme by:
 
 1. Press `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T` on macOS)
 2. Select one of the available themes:
@@ -91,6 +120,22 @@ Alternatively:
 - Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
 - Type `Preferences: Color Theme`
 - Select your preferred No Pixie theme
+
+### Icon Theme
+
+To activate the matching icon theme:
+
+1. Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+2. Type `Preferences: File Icon Theme`
+3. Select one of the available icon themes:
+   - **No Pixie Purple Icons** - Matches the original purple theme variants
+   - **No Pixie Blue Icons** - Matches the blue theme variants
+   - **No Pixie Yellow Icons** - Matches the yellow theme variants
+
+The icon themes include:
+- Custom folder icons for common directories (src, dist, node_modules, .git, tests, docs, config, public, components, utils)
+- File type icons for 40+ languages and file types (JavaScript, TypeScript, Python, Java, C++, Go, Rust, PHP, Ruby, HTML, CSS, JSON, YAML, Markdown, and many more)
+- Special icons for configuration files (package.json, webpack.config.js, Dockerfile, .gitignore)
 
 ## Feedback & Contributing
 
