@@ -58,18 +58,38 @@
         "uiTheme": "vs",
         "path": "./themes/no-pixie-yellow-light.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "no-pixie-purple-icons",
+        "label": "No Pixie Purple Icons",
+        "path": "./themes/no-pixie-purple-icon-theme.json"
+      },
+      {
+        "id": "no-pixie-blue-icons",
+        "label": "No Pixie Blue Icons",
+        "path": "./themes/no-pixie-blue-icon-theme.json"
+      },
+      {
+        "id": "no-pixie-yellow-icons",
+        "label": "No Pixie Yellow Icons",
+        "path": "./themes/no-pixie-yellow-icon-theme.json"
+      }
     ]
   },
   "keywords": [
     "theme",
     "color-theme",
+    "icon-theme",
     "dark",
     "light",
-    "cozy"
+    "cozy",
+    "icons"
   ],
   "scripts": {
     "prepare": "husky",
-    "package": "vsce package",
+    "generate-icons": "node scripts/generate-icons.js",
+    "package": "npm run generate-icons && vsce package",
     "publish:vsce": "vsce publish",
     "publish:ovsx": "ovsx publish",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
