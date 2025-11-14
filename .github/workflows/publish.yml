@@ -197,7 +197,7 @@ jobs:
             --body "Automated version bump after publishing v${{ needs.check-version.outputs.new_version }} to VS Code Marketplace." \
             --base main \
             --head $BRANCH_NAME)
-          gh pr merge $PR_URL --auto --squash --admin
+          gh pr merge $PR_URL --squash --delete-branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

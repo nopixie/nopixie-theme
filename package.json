@@ -37,6 +37,16 @@
         "label": "No Pixie Light High Contrast",
         "uiTheme": "vs",
         "path": "./themes/no-pixie-light-high-contrast.json"
+      },
+      {
+        "label": "No Pixie Blue Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/no-pixie-blue-dark.json"
+      },
+      {
+        "label": "No Pixie Blue Light",
+        "uiTheme": "vs",
+        "path": "./themes/no-pixie-blue-light.json"
       }
     ]
   },
