@@ -1,7 +1,7 @@
 ## 1.1.0 (2025-11-14)
 
 * feat: add yellow theme variants inspired by cozy atmosphere (#18) ([5f8de89](https://github.com/nopixie/nopixie-theme/commit/5f8de89)), closes [#18](https://github.com/nopixie/nopixie-theme/issues/18)
-
+* feat: add blue theme variants inspired by rainy atmosphere (#17) closes [#17](https://github.com/nopixie/nopixie-theme/issues/17)
 
 
 ## 1.0.0 (2025-11-13)
