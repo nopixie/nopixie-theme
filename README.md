@@ -7,6 +7,7 @@ A minimal and carefully crafted color theme for Visual Studio Code, available in
 - 🌙 **Dark Mode**: Easy on the eyes with carefully selected colors for extended coding sessions
 - ☀️ **Light Mode**: Clean and crisp for those who prefer working in bright environments
 - 🔆 **High Contrast Variants**: Enhanced contrast versions of both dark and light themes for improved accessibility
+- 💧 **Blue Variants**: Cool blue/cyan color palette inspired by rainy atmosphere for a calming coding experience
 - 🎨 **Minimal Design**: Thoughtfully designed color palette that reduces visual clutter
 - 💻 **Syntax Highlighting**: Optimized for readability across multiple programming languages
 
@@ -80,6 +81,8 @@ After installation, you can activate the theme by:
    - **No Pixie Light**
    - **No Pixie High Contrast Dark**
    - **No Pixie High Contrast Light**
+   - **No Pixie Blue Dark**
+   - **No Pixie Blue Light**
 
 Alternatively:
 - Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
