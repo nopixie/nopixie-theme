@@ -173,20 +173,20 @@
     "_file_zip": {
       "iconPath": "../icons/purple/file-zip.svg"
     },
-    "_file_npm": {
-      "iconPath": "../icons/purple/file-npm.svg"
+    "_filename_npm": {
+      "iconPath": "../icons/purple/filename-npm.svg"
     },
-    "_file_webpack": {
-      "iconPath": "../icons/purple/file-webpack.svg"
+    "_filename_webpack": {
+      "iconPath": "../icons/purple/filename-webpack.svg"
     },
-    "_file_vite": {
-      "iconPath": "../icons/purple/file-vite.svg"
+    "_filename_vite": {
+      "iconPath": "../icons/purple/filename-vite.svg"
     },
-    "_file_docker": {
-      "iconPath": "../icons/purple/file-docker.svg"
+    "_filename_docker": {
+      "iconPath": "../icons/purple/filename-docker.svg"
     },
-    "_file_git": {
-      "iconPath": "../icons/purple/file-git.svg"
+    "_filename_git": {
+      "iconPath": "../icons/purple/filename-git.svg"
     }
   },
   "folder": "_folder",
@@ -336,15 +336,15 @@
     "7z": "_file_zip"
   },
   "fileNames": {
-    "package.json": "_file_npm",
-    "package-lock.json": "_file_npm",
-    "webpack.config.js": "_file_webpack",
-    "vite.config.js": "_file_vite",
-    "vite.config.ts": "_file_vite",
-    "Dockerfile": "_file_docker",
-    ".gitignore": "_file_git",
-    ".gitattributes": "_file_git",
-    ".dockerignore": "_file_docker"
+    "package.json": "_filename_npm",
+    "package-lock.json": "_filename_npm",
+    "webpack.config.js": "_filename_webpack",
+    "vite.config.js": "_filename_vite",
+    "vite.config.ts": "_filename_vite",
+    "Dockerfile": "_filename_docker",
+    ".gitignore": "_filename_git",
+    ".gitattributes": "_filename_git",
+    ".dockerignore": "_filename_docker"
   },
   "languageIds": {
     "javascript": "_file_js",

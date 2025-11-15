@@ -99,6 +99,29 @@ The high contrast light variant offers maximum contrast for accessibility needs 
 ![No Pixie High Contrast Light Theme - Python and PHP](images/hc-light-python-php.png)
 
 
+## Icon Themes
+
+The No Pixie theme includes three comprehensive icon themes designed to match each color palette variant. Each icon theme provides consistent, minimal icons for folders and 40+ file types.
+
+### Purple Icon Theme
+
+The Purple icon theme matches the original No Pixie purple color palette with elegant purple accents.
+
+![No Pixie Purple Icon Theme](images/icons-purple.png)
+
+### Blue Icon Theme
+
+The Blue icon theme features cool blue/cyan tones that complement the Blue theme variants.
+
+![No Pixie Blue Icon Theme](images/icons-blue.png)
+
+### Yellow Icon Theme
+
+The Yellow icon theme uses warm yellow/amber colors that pair perfectly with the Yellow theme variants.
+
+![No Pixie Yellow Icon Theme](images/icons-yellow.png)
+
+
 ## Activation
 
 ### Color Theme
