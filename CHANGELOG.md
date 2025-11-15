@@ -1,3 +1,10 @@
+## 1.3.0 (2025-11-15)
+
+* feat: enhance icon themes with text labels for improved file type identification (#24) ([870b56b](https://github.com/nopixie/nopixie-theme/commit/870b56b)), closes [#24](https://github.com/nopixie/nopixie-theme/issues/24)
+* chore: bump version to 1.2.0 [skip ci] (#23) ([908ce90](https://github.com/nopixie/nopixie-theme/commit/908ce90)), closes [#23](https://github.com/nopixie/nopixie-theme/issues/23)
+
+
+
 ## 1.2.0 (2025-11-14)
 
 * feat: add comprehensive icon themes matching color palettes (#22) ([c85923b](https://github.com/nopixie/nopixie-theme/commit/c85923b)), closes [#22](https://github.com/nopixie/nopixie-theme/issues/22)
