@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 904" fill="none">
+  <!-- Background -->
+  <rect width="424" height="904" fill="#1e1e1e"/>
+
+  <!-- Title -->
+  <text x="212" y="30" text-anchor="middle" fill="#5A9FD8" font-family="Arial, sans-serif" font-size="20" font-weight="bold">No Pixie Blue Icon Theme</text>
+
+  <!-- Folders -->
+  <text x="20" y="60" fill="#50D8FF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Folders</text>
+  <g transform="translate(20, 100) scale(1.2)">
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" fill="#4A7FB8" opacity="0.3"/>
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" stroke="#4A7FB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="36" y="144" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">folder</text>
+  <g transform="translate(68, 100) scale(1.2)">
+    <path d="M22 19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H9L11 6H20C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V19Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M2 19C2 19.5304 2.21071 20.0391 2.58579 20.4142C2.96086 20.7893 3.46957 21 4 21H20C20.5304 21 21.0391 20.7893 21.4142 20.4142C21.7893 20.0391 22 19.5304 22 19V12H2V19Z" fill="#5A9FD8" opacity="0.5"/>
+    <path d="M22 19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H9L11 6H20C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V19Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="84" y="144" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">folder-open</text>
+  <g transform="translate(116, 100) scale(1.2)">
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="132" y="144" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">folder-src</text>
+  <g transform="translate(164, 100) scale(1.2)">
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" fill="#50D8FF" opacity="0.3"/>
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="180" y="144" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">folder-dist</text>
+  <g transform="translate(212, 100) scale(1.2)">
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="228" y="144" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">folder-node</text>
+  <g transform="translate(260, 100) scale(1.2)">
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M10 4H4C2.89543 4 2 4.89543 2 6V18C2 19.1046 2.89543 20 4 20H20C21.1046 20 22 19.1046 22 18V8C22 6.89543 21.1046 6 20 6H12L10 4Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="276" y="144" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">folder-git</text>
+  <!-- Programming Languages -->
+  <text x="20" y="208" fill="#50D8FF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Programming Languages</text>
+  <g transform="translate(20, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#50D8FF" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5AC8C8" font-size="6" font-weight="bold">JS</text>
+  </g>
+  <text x="36" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">js</text>
+  <g transform="translate(68, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#50D8FF" font-size="6" font-weight="bold">TS</text>
+  </g>
+  <text x="84" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">ts</text>
+  <g transform="translate(116, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">PY</text>
+  </g>
+  <text x="132" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">py</text>
+  <g transform="translate(164, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">JAVA</text>
+  </g>
+  <text x="180" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">java</text>
+  <g transform="translate(212, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#50D8FF" font-size="6" font-weight="bold">C++</text>
+  </g>
+  <text x="228" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">cpp</text>
+  <g transform="translate(260, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">C</text>
+  </g>
+  <text x="276" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">c</text>
+  <g transform="translate(308, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#50D8FF" font-size="6" font-weight="bold">C#</text>
+  </g>
+  <text x="324" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">cs</text>
+  <g transform="translate(356, 248) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">GO</text>
+  </g>
+  <text x="372" y="292" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">go</text>
+  <g transform="translate(20, 296) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">RS</text>
+  </g>
+  <text x="36" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">rs</text>
+  <g transform="translate(68, 296) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#50D8FF" font-size="6" font-weight="bold">PHP</text>
+  </g>
+  <text x="84" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">php</text>
+  <g transform="translate(116, 296) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.5 13L7 15.5L9.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14.5 13L17 15.5L14.5 18" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">RB</text>
+  </g>
+  <text x="132" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">rb</text>
+  <g transform="translate(164, 296) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">SWFT</text>
+  </g>
+  <text x="180" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">swift</text>
+  <g transform="translate(212, 296) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#50D8FF" font-size="6" font-weight="bold">KT</text>
+  </g>
+  <text x="228" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">kt</text>
+  <g transform="translate(260, 296) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">DART</text>
+  </g>
+  <text x="276" y="340" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">dart</text>
+  <!-- Web Technologies -->
+  <text x="20" y="404" fill="#50D8FF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Web Technologies</text>
+  <g transform="translate(20, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">HTML</text>
+  </g>
+  <text x="36" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">html</text>
+  <g transform="translate(68, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">CSS</text>
+  </g>
+  <text x="84" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">css</text>
+  <g transform="translate(116, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">SCSS</text>
+  </g>
+  <text x="132" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">scss</text>
+  <g transform="translate(164, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">SASS</text>
+  </g>
+  <text x="180" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">sass</text>
+  <g transform="translate(212, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">LESS</text>
+  </g>
+  <text x="228" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">less</text>
+  <g transform="translate(260, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">VUE</text>
+  </g>
+  <text x="276" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">vue</text>
+  <g transform="translate(308, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">JSX</text>
+  </g>
+  <text x="324" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">jsx</text>
+  <g transform="translate(356, 444) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">NG</text>
+  </g>
+  <text x="372" y="488" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">ng</text>
+  <g transform="translate(20, 492) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">SVLT</text>
+  </g>
+  <text x="36" y="536" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">svelte</text>
+  <!-- Config and Data -->
+  <text x="20" y="600" fill="#50D8FF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Config and Data</text>
+  <g transform="translate(20, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#50D8FF" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#50D8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5AC8C8" font-size="6" font-weight="bold">JSON</text>
+  </g>
+  <text x="36" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">json</text>
+  <g transform="translate(68, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">YAML</text>
+  </g>
+  <text x="84" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">yaml</text>
+  <g transform="translate(116, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">XML</text>
+  </g>
+  <text x="132" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">xml</text>
+  <g transform="translate(164, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#8A95A0" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">TOML</text>
+  </g>
+  <text x="180" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">toml</text>
+  <g transform="translate(212, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#8A95A0" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">INI</text>
+  </g>
+  <text x="228" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">ini</text>
+  <g transform="translate(260, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#8A95A0" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">MD</text>
+  </g>
+  <text x="276" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">md</text>
+  <g transform="translate(308, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#8A95A0" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">TXT</text>
+  </g>
+  <text x="324" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">txt</text>
+  <g transform="translate(356, 640) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">PDF</text>
+  </g>
+  <text x="372" y="684" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">pdf</text>
+  <!-- Tools and Others -->
+  <text x="20" y="748" fill="#50D8FF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Tools and Others</text>
+  <g transform="translate(20, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">NPM</text>
+  </g>
+  <text x="36" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">npm</text>
+  <g transform="translate(68, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">PACK</text>
+  </g>
+  <text x="84" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">webpack</text>
+  <g transform="translate(116, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5A9FD8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5A9FD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#50D8FF" font-size="6" font-weight="bold">VITE</text>
+  </g>
+  <text x="132" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">vite</text>
+  <g transform="translate(164, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">DCKR</text>
+  </g>
+  <text x="180" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">docker</text>
+  <g transform="translate(212, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">GIT</text>
+  </g>
+  <text x="228" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">git</text>
+  <g transform="translate(260, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#8A95A0" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">SH</text>
+  </g>
+  <text x="276" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">sh</text>
+  <g transform="translate(308, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">PS</text>
+  </g>
+  <text x="324" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">ps1</text>
+  <g transform="translate(356, 788) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AC8C8" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AC8C8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">SQL</text>
+  </g>
+  <text x="372" y="832" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">sql</text>
+  <g transform="translate(20, 836) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#5AE8E5" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#5AE8E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">IMG</text>
+  </g>
+  <text x="36" y="880" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">image</text>
+  <g transform="translate(68, 836) scale(1.2)">
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" fill="#8A95A0" opacity="0.3"/>
+    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 2V8H20" stroke="#8A95A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="23" y="23" text-anchor="end" fill="#5A9FD8" font-size="6" font-weight="bold">ZIP</text>
+  </g>
+  <text x="84" y="880" text-anchor="middle" fill="#888" font-family="monospace" font-size="9">zip</text>
+</svg>
