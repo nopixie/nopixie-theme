@@ -26,7 +26,7 @@
 
 # No Pixie Theme
 
-A minimal and carefully crafted color theme for Visual Studio Code, featuring both color themes and matching icon themes in multiple variants.
+A minimal and carefully crafted color theme for Visual Studio Code in multiple variants.
 
 ## Features
 
@@ -37,7 +37,6 @@ A minimal and carefully crafted color theme for Visual Studio Code, featuring bo
 - ☀️ **Yellow Variants**: Warm yellow/amber color palette inspired by cozy atmosphere for a comfortable coding experience
 - 🎨 **Minimal Design**: Thoughtfully designed color palette that reduces visual clutter
 - 💻 **Syntax Highlighting**: Optimized for readability across multiple programming languages
-- 🗂️ **Icon Themes**: Three comprehensive icon themes (Purple, Blue, Yellow) that match each color palette with support for folders, files, and 40+ file types
 
 ## Installation
 
@@ -53,50 +52,13 @@ Or install via command line:
 code --install-extension no-pixie.nopixie-theme
 ```
 
-## Examples
+## Preview
 
-### Dark Theme
+![No Pixie Dark Theme](images/dark-js-ts-vue-react.jpg)
 
-The dark variant provides a comfortable viewing experience with reduced eye strain during long coding sessions.
+**[View Full Screenshot Gallery →](https://github.com/nopixie/nopixie-theme/tree/main/images)**
 
-#### Javascript, Typescript, Vue and React
-![No Pixie Dark Theme - Javascript, Typescript, Vue and React](images/dark-js-ts-vue-react.png)
-
-#### Python and PHP
-![No Pixie Dark Theme - Python and PHP](images/dark-python-php.png)
-
-
-### Light Theme
-
-The light variant offers a clean, professional look with excellent contrast for well-lit environments.
-
-#### Javascript, Typescript, Vue and React
-![No Pixie Light Theme - Javascript, Typescript, Vue and React](images/light-js-ts-vue-react.png)
-
-#### Python and PHP
-![No Pixie Light Theme - Python and PHP](images/light-python-php.png)
-
-
-### High Contrast Dark Theme
-
-The high contrast dark variant provides enhanced contrast for improved accessibility and visibility.
-
-#### Javascript, Typescript, Vue and React
-![No Pixie High Contrast Dark Theme - Javascript, Typescript, Vue and React](images/hc-dark-js-ts-vue-react.png)
-
-#### Python and PHP
-![No Pixie High Contrast Dark Theme - Python and PHP](images/hc-dark-python-php.png)
-
-
-### High Contrast Light Theme
-
-The high contrast light variant offers maximum contrast for accessibility needs in bright environments.
-
-#### Javascript, Typescript, Vue and React
-![No Pixie High Contrast Light Theme - Javascript, Typescript, Vue and React](images/hc-light-js-ts-vue-react.png)
-
-#### Python and PHP
-![No Pixie High Contrast Light Theme - Python and PHP](images/hc-light-python-php.png)
+Browse the complete collection of screenshots showcasing all theme variants (Dark, Light, High Contrast) across different programming languages.
 
 
 ## Icon Themes
@@ -143,22 +105,6 @@ Alternatively:
 - Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
 - Type `Preferences: Color Theme`
 - Select your preferred No Pixie theme
-
-### Icon Theme
-
-To activate the matching icon theme:
-
-1. Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
-2. Type `Preferences: File Icon Theme`
-3. Select one of the available icon themes:
-   - **No Pixie Purple Icons** - Matches the original purple theme variants
-   - **No Pixie Blue Icons** - Matches the blue theme variants
-   - **No Pixie Yellow Icons** - Matches the yellow theme variants
-
-The icon themes include:
-- Custom folder icons for common directories (src, dist, node_modules, .git, tests, docs, config, public, components, utils)
-- File type icons for 40+ languages and file types (JavaScript, TypeScript, Python, Java, C++, Go, Rust, PHP, Ruby, HTML, CSS, JSON, YAML, Markdown, and many more)
-- Special icons for configuration files (package.json, webpack.config.js, Dockerfile, .gitignore)
 
 ## Feedback & Contributing
 

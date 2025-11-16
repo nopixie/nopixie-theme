@@ -12,3 +12,5 @@ examples/**
 renovate.json
 scripts/**
 .claude/**
+images/*.png
+images/*-backup.*
