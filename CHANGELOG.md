@@ -1,3 +1,26 @@
+## 2.0.0 (2025-11-16)
+
+* feat!: remove icon themes and optimize package size (#26) ([cf23d8c](https://github.com/nopixie/nopixie-theme/commit/cf23d8c)), closes [#26](https://github.com/nopixie/nopixie-theme/issues/26)
+* chore: bump version to 1.3.0 [skip ci] (#25) ([f60fbc3](https://github.com/nopixie/nopixie-theme/commit/f60fbc3)), closes [#25](https://github.com/nopixie/nopixie-theme/issues/25)
+
+
+### BREAKING CHANGE
+
+* Icon themes have been removed from this extension and will be published as a separate extension.
+
+Changes:
+- Remove all icon theme files and configurations (purple, blue, yellow variants)
+- Remove icon generation script and npm scripts
+- Remove icon-theme related keywords from package.json
+- Optimize package size from 13.68MB to 478KB (96.5% reduction)
+- Convert screenshot images from PNG to optimized JPEG format
+- Exclude non-essential screenshots from package via .vscodeignore
+- Update README with streamlined preview section and link to full gallery
+- Keep only icon.jpg and one optimized preview image in package
+
+Users currently using the icon themes will need to switch to the new standalone icon theme extension once published.
+
+
 ## 1.3.0 (2025-11-15)
 
 * feat: enhance icon themes with text labels for improved file type identification (#24) ([870b56b](https://github.com/nopixie/nopixie-theme/commit/870b56b)), closes [#24](https://github.com/nopixie/nopixie-theme/issues/24)
