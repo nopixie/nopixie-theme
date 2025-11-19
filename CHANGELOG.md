@@ -1,3 +1,10 @@
+## 2.1.0 (2025-11-19)
+
+* feat: add pastel title bar colors to light themes (#28) ([3d704e0](https://github.com/nopixie/nopixie-theme/commit/3d704e0)), closes [#28](https://github.com/nopixie/nopixie-theme/issues/28)
+* chore: bump version to 2.0.0 [skip ci] (#27) ([eafe17b](https://github.com/nopixie/nopixie-theme/commit/eafe17b)), closes [#27](https://github.com/nopixie/nopixie-theme/issues/27)
+
+
+
 ## 2.0.0 (2025-11-16)
 
 * feat!: remove icon themes and optimize package size (#26) ([cf23d8c](https://github.com/nopixie/nopixie-theme/commit/cf23d8c)), closes [#26](https://github.com/nopixie/nopixie-theme/issues/26)
