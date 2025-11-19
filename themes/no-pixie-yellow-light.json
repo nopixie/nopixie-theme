@@ -192,11 +192,11 @@
     "statusBarItem.prominentBackground": "#8B74A0",
     "statusBarItem.prominentHoverBackground": "#735E7A",
 
-    "titleBar.activeBackground": "#F0E4C8",
-    "titleBar.activeForeground": "#3A2F18",
-    "titleBar.inactiveBackground": "#F0E4C8",
-    "titleBar.inactiveForeground": "#9A8860",
-    "titleBar.border": "#E8D8B0",
+    "titleBar.activeBackground": "#E8DCF0",
+    "titleBar.activeForeground": "#382838",
+    "titleBar.inactiveBackground": "#F0E8F8",
+    "titleBar.inactiveForeground": "#786878",
+    "titleBar.border": "#D8CCE0",
 
     "menubar.selectionForeground": "#3A2F18",
     "menubar.selectionBackground": "#E8D8B0",

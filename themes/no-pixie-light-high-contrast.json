@@ -195,11 +195,11 @@
     "statusBarItem.prominentForeground": "#FFFFFF",
     "statusBarItem.prominentHoverBackground": "#A000A0",
 
-    "titleBar.activeBackground": "#F8F8F8",
+    "titleBar.activeBackground": "#F0D8F0",
     "titleBar.activeForeground": "#000000",
-    "titleBar.inactiveBackground": "#F8F8F8",
-    "titleBar.inactiveForeground": "#808080",
-    "titleBar.border": "#D0D0D0",
+    "titleBar.inactiveBackground": "#F8E8F8",
+    "titleBar.inactiveForeground": "#404040",
+    "titleBar.border": "#E0C8E0",
 
     "menubar.selectionForeground": "#000000",
     "menubar.selectionBackground": "#E0E0E0",
