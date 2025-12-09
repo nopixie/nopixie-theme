@@ -11,6 +11,7 @@ examples/**
 .commitlintrc.json
 renovate.json
 scripts/**
+iterm/**
 .claude/**
 images/*.png
 images/*-backup.*

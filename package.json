@@ -69,6 +69,8 @@
   ],
   "scripts": {
     "prepare": "husky",
+    "build:iterm": "node scripts/generate-iterm-themes.js",
+    "prepackage": "npm run build:iterm",
     "package": "vsce package",
     "publish:vsce": "vsce publish",
     "publish:ovsx": "ovsx publish",
