@@ -163,13 +163,25 @@ jobs:
 
       - name: Publish to VS Code Marketplace
         if: inputs.dry_run != true
-        run: npm run publish:vsce -- -p ${{ secrets.VSCE_PAT }}
+        run: |
+          for attempt in 1 2 3; do
+            npm run publish:vsce -- -p "$VSCE_PAT" --skip-duplicate && exit 0
+            echo "Attempt $attempt failed, retrying in 30s..."
+            sleep 30
+          done
+          exit 1
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
 
       - name: Publish to OpenVSX
         if: inputs.dry_run != true
-        run: npm run publish:ovsx -- -p ${{ secrets.OVSX_PAT }}
+        run: |
+          for attempt in 1 2 3; do
+            npm run publish:ovsx -- -p "$OVSX_PAT" --skip-duplicate && exit 0
+            echo "Attempt $attempt failed, retrying in 30s..."
+            sleep 30
+          done
+          exit 1
         env:
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
 
