@@ -1,3 +1,12 @@
+## 2.2.0 (2026-09-14)
+
+* Feat/burgandy version (#32) ([380aeea](https://github.com/nopixie/nopixie-theme/commit/380aeea)), closes [#32](https://github.com/nopixie/nopixie-theme/issues/32)
+* feat: add iTerm2 color scheme support (#30) ([78b525d](https://github.com/nopixie/nopixie-theme/commit/78b525d)), closes [#30](https://github.com/nopixie/nopixie-theme/issues/30) [dark/light/hi#contrast](https://github.com/dark/light/hi/issues/contrast)
+* feat(themes): add burgundy color theme variant (#31) ([1df0cce](https://github.com/nopixie/nopixie-theme/commit/1df0cce)), closes [#31](https://github.com/nopixie/nopixie-theme/issues/31)
+* chore: bump version to 2.1.0 [skip ci] (#29) ([3b641c0](https://github.com/nopixie/nopixie-theme/commit/3b641c0)), closes [#29](https://github.com/nopixie/nopixie-theme/issues/29)
+
+
+
 ## 2.1.0 (2025-11-19)
 
 * feat: add pastel title bar colors to light themes (#28) ([3d704e0](https://github.com/nopixie/nopixie-theme/commit/3d704e0)), closes [#28](https://github.com/nopixie/nopixie-theme/issues/28)
