@@ -35,6 +35,7 @@ A minimal and carefully crafted color theme for Visual Studio Code in multiple v
 - 🔆 **High Contrast Variants**: Enhanced contrast versions of both dark and light themes for improved accessibility
 - 💧 **Blue Variants**: Cool blue/cyan color palette inspired by rainy atmosphere for a calming coding experience
 - ☀️ **Yellow Variants**: Warm yellow/amber color palette inspired by cozy atmosphere for a comfortable coding experience
+- 🍷 **Burgundy Variants**: Deep wine and gold color palette inspired by rich, warm evenings for an elegant coding experience
 - 🎨 **Minimal Design**: Thoughtfully designed color palette that reduces visual clutter
 - 💻 **Syntax Highlighting**: Optimized for readability across multiple programming languages
 
@@ -100,6 +101,8 @@ After installation, you can activate the color theme by:
    - **No Pixie Blue Light**
    - **No Pixie Yellow Dark**
    - **No Pixie Yellow Light**
+   - **No Pixie Burgundy Dark**
+   - **No Pixie Burgundy Light**
 
 Alternatively:
 - Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
